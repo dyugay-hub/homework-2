@@ -111,8 +111,13 @@ body {
 }
 
 .rad-btn {
+    margin: 30px;
     font-size: 15px;
     display: flex;
     justify-content: space-evenly;
 
+}
+
+.title {
+    width: 1px;
 }
