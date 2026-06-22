@@ -29,7 +29,7 @@ body {
 }
 
 .main-top-text {
-    font-size: 25px;
+    font-size: 35px;
     margin-top: 90px;
     margin-left: 60px;
     padding: 0;
@@ -37,7 +37,7 @@ body {
 }
 
 .under-top-text {
-    font-size: 15px;
+    font-size: 25px;
     color: gray;
     margin-left: 60px;
     margin-top: 5px;
@@ -46,29 +46,74 @@ body {
 }
 
 .img-box {
+    align-items: center;
     margin-left: 60px;
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     gap: 40px;
 }
 
 .img-box img {
     margin-top: 30px;
-    width: 200px;
+    width: 300px;
     max-width: 100%;
 }
 
+.link-img {
+    margin-right: 60px;
+}
+
 .divider {
-    margin-left: 130px;
     margin-top: 50px;
     display: flex;
-    justify-content: start;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+
+.email-box {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border: 1px solid lightgray;
+    margin-left: 60px;
     color: gray;
-    
+}
 
+.email-box input {
+    border: none;
+    width: 250px;
+}   
 
+.phone-box {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border: 1px solid lightgray;
+    margin-right: 60px;
+    color: gray;
 
+}
 
+.phone-box input {
+    border: none;
+    width: 250px;
+}
+
+.login {
+    margin-left: 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+}
+
+.login .email-box:hover {
+    border-left: 2px solid blue;
+}
+
+.login .phone-box:hover {
+    border-left: 2px solid blue;
+}
 
 
 
