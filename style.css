@@ -6,6 +6,7 @@ body {
     
 }
 
+
 .left {
     background-image: url(./css-task/img/bg.jpg);
     background-repeat: no-repeat;
@@ -18,6 +19,7 @@ body {
 
 .right {
     width: 50%;
+    height: 100%;
 }
 
 .left img {
@@ -31,6 +33,7 @@ body {
     margin-top: 90px;
     margin-left: 60px;
     padding: 0;
+
 }
 
 .under-top-text {
@@ -39,18 +42,54 @@ body {
     margin-left: 60px;
     margin-top: 5px;
     padding: 0;
+   
 }
 
 .img-box {
+    margin-left: 60px;
+    display: flex;
+    justify-content: start;
+    gap: 40px;
+}
+
+.img-box img {
+    margin-top: 30px;
+    width: 200px;
+    max-width: 100%;
+}
+
+.divider {
+    margin-left: 130px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+    color: gray;
+    
+
+
+
+
+
+
+
+
+
+
+/* .img-box {
+    width: 735px;
+    margin-left: 60px;
+    margin-right: 60px;
+    gap: 2px;
     display: flex;
     justify-content: space-between;
+  
 }
 
 .img-box img {
     margin-top: 30px;
     margin-left: 60px;
     margin-right: 60px;
-    width: 300px;
+    width: 200px;
 }
 
 .divider {
@@ -59,10 +98,10 @@ body {
     justify-content: center;
     gap: 5px;
     color: gray;
-    flex-direction: row;
+    flex-direction: row; */
 }
 
-.email-box {
+/* .email-box {
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -120,4 +159,4 @@ body {
 
 .title {
     width: 1px;
-}
+} */
