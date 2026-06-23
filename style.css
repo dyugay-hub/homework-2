@@ -105,6 +105,7 @@ body {
     margin-top: 50px;
     display: flex;
     justify-content: center;
+    flex-basis: 100%;
     color: rgb(0, 0, 0);
 }
 
@@ -146,11 +147,11 @@ body {
     flex-wrap: wrap;
 }
 
-.login .email-box:hover {
+.login .email-box:focus {
     border-left: 2px solid blue;
 }
 
-.login .phone-box:hover {
+.login .phone-box:focus {
     border-left: 2px solid blue;
 }
 
@@ -231,6 +232,16 @@ body {
 .text {
     color: white;
     font-size: 15px;
+}
+
+label[for="email"] {
+    padding-top: 3px;
+    padding-left: 3px;
+}
+
+label[for="phone"] {
+    padding-top: 3px;
+    padding-left: 3px;
 }
 
 
