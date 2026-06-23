@@ -130,7 +130,35 @@ body {
     justify-content: start;
 }
 
+.rad-btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+}
 
+.terms {
+    flex-basis: 100%;
+    padding-left: 60px;
+    margin-top: 30px;
+}
+
+.create-acc-btn {
+    flex-basis: 100%;
+    margin-left: 60px;
+    margin-top: 40px;
+    width: 150px;
+}
+
+.create-acc-btn button {
+    background-color: blue;
+    border-radius: 10px;
+    width: 350px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+}
 
 
 
