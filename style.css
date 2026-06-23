@@ -117,7 +117,17 @@ body {
 }
 
 .middle-text {
+    font-size: 25px;
+    padding-top: 20px;
     flex-basis: 100%;
+    padding-left: 60px;
+}
+
+.under-top-text {
+    flex-basis: 100%;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
 }
 
 
