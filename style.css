@@ -61,15 +61,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 10px;
+    gap: 30px;
     padding-left: 30px;
-    width: 300px;
+    width: 350px;
     height: 50px;
-    background-color: aqua;
+    background-color: #255A9B;
 }
 
 .fcb-btn img {
-    width: 35px;
+    width: 15px;
 
 }
 
@@ -77,16 +77,16 @@ body {
     display: flex;
     align-items: center;
     justify-content: start;
-    gap: 10px;
+    gap: 30px;
     padding-left: 30px;
-    width: 300px;
+    width: 350px;
     height: 50px;
-    background-color: aqua;
+    background-color: #0076B6;
 
 }
 
 .link-btn img {
-    width: 35px;
+    width: 25px;
 
 }
 
@@ -111,7 +111,7 @@ body {
 .email-box {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 350px;
     border: 1px solid #EEEEEE;
     margin-left: 60px;
     color: gray;
@@ -125,7 +125,7 @@ body {
 .phone-box {
     display: flex;
     flex-direction: column;
-    width: 360px;
+    width: 350px;
     border: 1px solid #EEEEEE;
     margin-right: 60px;
     color: gray;
@@ -173,11 +173,14 @@ body {
 
 .rad-btn {
     margin-top: 30px;
+    margin-left: 60px;
+    margin-right: 60px;
     display: flex;
-    justify-content: center;
-    gap: 100px;
+    justify-content: space-between;
+    gap: 10px;
     align-items: center;
     color: gray;
+    flex-basis: 100%;
 }
 
 .terms {
@@ -216,6 +219,19 @@ body {
     color: #AFAFAF;
 }
 
+.user-data-cont {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.text {
+    color: white;
+    font-size: 15px;
+}
 
 
 /* .img-box {
